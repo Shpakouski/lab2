@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <adminhtml_questions_index>
+        <reference name="content">
+            <block type="frequent_questions/adminhtml_questions" name="questions.grid_container"/>
+        </reference>
+    </adminhtml_questions_index>
+
+    <adminhtml_questions_new>
+        <update handle="adminhtml_questions_edit"/>
+    </adminhtml_questions_new>
+
+    <adminhtml_questions_edit>
+        <reference name="content">
+            <block type="frequent_questions/adminhtml_edit" name="questions.edit"/>
+        </reference>
+    </adminhtml_questions_edit>
+</layout>

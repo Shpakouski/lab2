@@ -1,0 +1,3 @@
+<?php $question = $this->getQuestion() ?>
+<h1><?php echo Mage::helper('frequent_questions')->__('View question "%s"', $question->getQstn()) ?></h1>
+<p><?php echo $question->getAnswer() ?></p>

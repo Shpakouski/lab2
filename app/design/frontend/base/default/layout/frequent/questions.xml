@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <frequent_questions_index_index>
+        <reference name="content">
+            <block type="frequent_questions/content" name="questions.all"/>
+        </reference>
+    </frequent_questions_index_index>
+
+    <frequent_questions_index_view>
+        <reference name="content">
+            <block type="frequent_questions/question_content" name="question.item"/>
+        </reference>
+    </frequent_questions_index_view>
+</layout>

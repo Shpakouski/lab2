@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <frequent_questions translate="title" module="frequent_questions">
+            <title>Questions</title>
+            <sort_order>555</sort_order>
+            <action>adminhtml/questions</action>
+        </frequent_questions>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <frequent_questions translate="title" module="frequent_questions">
+                        <title>Questions</title>
+                        <sort_order>0</sort_order>
+                    </frequent_questions>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
