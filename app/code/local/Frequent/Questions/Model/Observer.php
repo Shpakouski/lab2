@@ -3,12 +3,6 @@
 class Frequent_Questions_Model_Observer
 {
 
-    public function updateProductName(Varien_Event_Observer $observer)
-    {
-        $product = $observer->getData('product');
-        $product->setName($product->getName() . ' Coooool !');
-    }
-
     public function viewAnswers()
     {
         $question_id = Mage::app()->getRequest()->getPathInfo();
@@ -22,6 +16,5 @@ class Frequent_Questions_Model_Observer
 
         }
     }
-
 
 }
