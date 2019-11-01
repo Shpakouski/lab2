@@ -22,6 +22,13 @@
                 <class>Frequent_Questions_Block</class>
             </frequent_questions>
         </blocks>
+        <blocks>
+            <page>
+                <rewrite>
+                    <template_links>Frequent_Questions_Block_Template_Mylinks</template_links>
+                </rewrite>
+            </page>
+        </blocks>
         <helpers>
             <frequent_questions>
                 <class>Frequent_Questions_Helper</class>
